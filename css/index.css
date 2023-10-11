@@ -1,0 +1,66 @@
+body {
+  background-color: #2875fb;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  /* Para alinear verticalmente al centro */
+  justify-content: space-between;
+  /* Para ubicar a la derecha y alinear horizontalmente */
+  background-color: #333;
+  /* Solo para dar un fondo de ejemplo */
+  padding: 10px 20px;
+  /* Ajusta el relleno según tus necesidades */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(3, 350px);
+  gap: 50px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
+  height: 800px;
+}
+
+/* @media(max-width:957px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,350px);
+        grid-template-rows: repeat(3,280px);
+        gap: 10px;
+        justify-items: center;
+        align-items: center;
+        margin-top: 40px;
+        height: 200px;
+
+      }*/
+
+
+
+
+@media(max-width:850px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(8, 0px);
+    grid-template-rows: repeat(1, 130px);
+    margin-top: 50px;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+
+    height: 100px;
+
+  }
+
+  .div-h1 {
+    display: flex;
+
+    align-items: center;
+    justify-items: flex-end;
+    /* padding-left: 230px;  */
+  }
+
+}

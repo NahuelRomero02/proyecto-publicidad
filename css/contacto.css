@@ -1,0 +1,27 @@
+body{
+    background-color: #2875fb;
+}
+.form{
+    display: flex;
+    justify-items: end;
+    align-items: end;
+
+}
+.input{
+    background-color: rgb(191, 191, 191);
+    border-radius: 10px;
+    border: 2px solid #1852ff;
+}
+
+  .header-card{
+    background-color: #1b1b1c;
+  }
+
+@media(max-width:850px){
+    .text-tarea{
+        width: 300px;
+    }
+}
+
+
+  
